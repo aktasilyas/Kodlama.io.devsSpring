@@ -14,7 +14,7 @@ public class Main {
 		LanguageService languageService=new LanguageManager(new LanguageInMemoryRepository());
 		
 		//Add
-		Language newLanguage=new Language(5,"C++");
+		Language newLanguage=new Language(5,"Pascal");
 		try {
 			languageService.add(newLanguage);
 		} catch (Exception e) {
